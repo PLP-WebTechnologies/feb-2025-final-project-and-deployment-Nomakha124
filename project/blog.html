@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - ProTech Solutions</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/blog.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="index.html">ProTech<span>Solutions</span></a>
+      </div>
+      <nav class="main-nav">
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Blog Hero Section -->
+  <section class="blog-hero">
+    <div class="container">
+      <div class="blog-hero-content">
+        <h1>The <span>Blog</span></h1>
+        <p class="subtitle">Insights, tutorials, and perspectives on technology</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Filter Section -->
+  <section class="blog-filter">
+    <div class="container">
+      <div class="filter-container">
+        <div class="search-box">
+          <input type="text" id="search-input" placeholder="Search articles...">
+          <button id="search-button" aria-label="Search">🔍</button>
+        </div>
+        <div class="category-filter">
+          <label for="category-select">Filter by:</label>
+          <select id="category-select">
+            <option value="all">All Categories</option>
+            <option value="development">Development</option>
+            <option value="design">Design</option>
+            <option value="career">Career</option>
+            <option value="ai">AI & ML</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Posts Grid -->
+  <section class="blog-posts">
+    <div class="container">
+      <div class="posts-grid">
+        <article class="post-card">
+          <div class="post-card-image">
+            <img src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Programming code on computer screen">
+          </div>
+          <div class="post-card-content">
+            <div class="post-meta">
+              <span class="category">Development</span>
+              <span class="date">May 10, 2025</span>
+            </div>
+            <h2>The Future of Web Development: Trends to Watch in 2025</h2>
+            <p>Explore the cutting-edge technologies and methodologies shaping the future of web development in this in-depth analysis.</p>
+            <a href="blog-post.html" class="read-more">Read More</a>
+          </div>
+        </article>
+        
+        <article class="post-card">
+          <div class="post-card-image">
+            <img src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="AI concept with digital visualization">
+          </div>
+          <div class="post-card-content">
+            <div class="post-meta">
+              <span class="category">Artificial Intelligence</span>
+              <span class="date">April 28, 2025</span>
+            </div>
+            <h2>Understanding the Ethics of AI: A Programmer's Responsibility</h2>
+            <p>As AI becomes more integrated into our lives, developers face new ethical challenges that require careful consideration.</p>
+            <a href="blog-post.html" class="read-more">Read More</a>
+          </div>
+        </article>
+        
+        <article class="post-card">
+          <div class="post-card-image">
+            <img src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Person working remotely with laptop">
+          </div>
+          <div class="post-card-content">
+            <div class="post-meta">
+              <span class="category">Career</span>
+              <span class="date">April 15, 2025</span>
+            </div>
+            <h2>Remote Work Revolution: Building a Successful Tech Career from Anywhere</h2>
+            <p>Discover strategies for thriving in the increasingly common remote work environment, especially in the tech industry.</p>
+            <a href="blog-post.html" class="read-more">Read More</a>
+          </div>
+        </article>
+        
+        <article class="post-card">
+          <div class="post-card-image">
+            <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Laptop with code">
+          </div>
+          <div class="post-card-content">
+            <div class="post-meta">
+              <span class="category">Development</span>
+              <span class="date">May 5, 2025</span>
+            </div>
+            <h2>Mastering JavaScript Promises: A Comprehensive Guide</h2>
+            <p>Understand the intricacies of JavaScript promises and how they can improve your asynchronous code.</p>
+            <a href="blog-post.html" class="read-more">Read More</a>
+          </div>
+        </article>
+        
+        <article class="post-card">
+          <div class="post-card-image">
+            <img src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Mobile UI design">
+          </div>
+          <div class="post-card-content">
+            <div class="post-meta">
+              <span class="category">UI/UX</span>
+              <span class="date">May 1, 2025</span>
+            </div>
+            <h2>Effective Mobile-First Design Principles for Modern Web</h2>
+            <p>Learn why mobile-first design is crucial and how to implement it effectively in your projects.</p>
+            <a href="blog-post.html" class="read-more">Read More</a>
+          </div>
+        </article>
+        
+        <article class="post-card">
+          <div class="post-card-image">
+            <img src="https://images.pexels.com/photos/325111/pexels-photo-325111.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Database servers">
+          </div>
+          <div class="post-card-content">
+            <div class="post-meta">
+              <span class="category">Database</span>
+              <span class="date">April 25, 2025</span>
+            </div>
+            <h2>NoSQL vs. SQL: Choosing the Right Database Architecture</h2>
+            <p>Compare the strengths and weaknesses of SQL and NoSQL databases to make informed decisions.</p>
+            <a href="blog-post.html" class="read-more">Read More</a>
+          </div>
+        </article>
+        
+        <article class="post-card">
+          <div class="post-card-image">
+            <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Cybersecurity concept">
+          </div>
+          <div class="post-card-content">
+            <div class="post-meta">
+              <span class="category">Security</span>
+              <span class="date">April 20, 2025</span>
+            </div>
+            <h2>Essential Security Practices for Modern Web Applications</h2>
+            <p>Protect your applications from vulnerabilities with these key security best practices.</p>
+            <a href="blog-post.html" class="read-more">Read More</a>
+          </div>
+        </article>
+        
+        <article class="post-card">
+          <div class="post-card-image">
+            <img src="https://images.pexels.com/photos/3183165/pexels-photo-3183165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Team collaborating">
+          </div>
+          <div class="post-card-content">
+            <div class="post-meta">
+              <span class="category">Career</span>
+              <span class="date">April 10, 2025</span>
+            </div>
+            <h2>Navigating Tech Leadership: From Developer to Team Lead</h2>
+            <p>Transitioning from an individual contributor to a leadership role requires specific skills and mindset shifts.</p>
+            <a href="blog-post.html" class="read-more">Read More</a>
+          </div>
+        </article>
+      </div>
+      
+      <!-- Pagination -->
+      <div class="pagination">
+        <button class="pagination-btn active">1</button>
+        <button class="pagination-btn">2</button>
+        <button class="pagination-btn">3</button>
+        <span class="pagination-ellipsis">...</span>
+        <button class="pagination-btn">10</button>
+        <button class="pagination-btn pagination-next">Next &rarr;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter" id="newsletter">
+    <div class="container">
+      <div class="newsletter-content">
+        <h2>Never Miss an Update</h2>
+        <p>Subscribe to our newsletter for weekly tech insights and new blog notifications.</p>
+        <form id="newsletter-form" class="newsletter-form">
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Your email address" required>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </div>
+          <div id="form-message"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="index.html">ProTech<span>Solutions</span></a>
+          <p>Exploring technology one byte at a time.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="blog.html?category=development">Development</a></li>
+            <li><a href="blog.html?category=design">Design</a></li>
+            <li><a href="blog.html?category=career">Career</a></li>
+            <li><a href="blog.html?category=ai">AI & ML</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Connect</h3>
+          <div class="social-icons">
+            <a href="#" aria-label="Twitter"><span class="icon">𝕏</span></a>
+            <a href="#" aria-label="LinkedIn"><span class="icon">in</span></a>
+            <a href="#" aria-label="GitHub"><span class="icon">GH</span></a>
+            <a href="#" aria-label="Instagram"><span class="icon">IG</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 ProTech Solutions. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/blog.js"></script>
+</body>
+</html>
